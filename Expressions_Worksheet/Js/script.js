@@ -50,3 +50,33 @@ alert(result); //This is the final result to solution and this is what the user 
 
 console.log(result); //This is what is logged into the browser console.
 
+//In my calculation I used 12 slices of pizza, with 16 people at the party and 4 boxes of pizza ordered and that gave each guest ate 3 slices of pizza.
+
+//Slice of Pie Pt2
+//Calculating how many slices of pizza the dog Sparky get.
+
+//Declaring Variables
+
+var slicesPerPizza;
+var peopleAtParty;
+var pizzasOrdered;
+var pizzaPerPerson;
+var result;
+
+//Defining the Variables
+
+slicesPerPizza = prompt("How many slices per pizza?"); //This prompts the user to put in information about how many slices of pizza is in the box.
+
+peopleAtParty = prompt("How many people are at the Party?"); //This prompts the user to put in how many people are at the party.
+
+pizzasOrdered = prompt ("How many Pizza's where ordered?"); // This prompts the user to put in information about how many pizzas were ordered.
+
+pizzaPerPerson = (slicesPerPizza * pizzasOrdered) - (peopleAtParty * 2); //This is the expression being calculated.
+
+result = ("Sparky got " +  pizzaPerPerson + " slices of pizza"); //This calculates how may slices Sparky gets to eat.
+
+alert(result); //This is the result of the solution that the user sees.
+
+console.log(result); //This is where the results get logged into the console.
+
+//In my calculation I used 12 slices of pizza with 16 people at the party and 4 boxes of pizza was ordered and sparky got 16 slices of pizza.
